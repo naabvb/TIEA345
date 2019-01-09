@@ -1,6 +1,6 @@
 1.1 Git repo perustettu ja cloonattavissa
 
-1.2 ja 1.4 Kirjoitin kortille raspbian liten ja lisäsin ennen raspiin pistämistä tiedoston ssh boot-sektorille, jotta ssh on päällä ekalla käynnistyksellä.
+1.2 ja 1.4 Kirjoitin kortille raspbian liten ja lisäsin ennen raspiin pistämistä tyhjän tiedoston nimellä ssh boot-sektorille, jotta ssh on päällä ekalla käynnistyksellä.
 		   Loput asetukset sai vaihdettua raspi-configista. Laajennus, locale, hostname, salasana, etc
 
 1.3 Itse nopeutin prosessia tyhjällä ssh tiedostolla, mutta ssh-yhteydet olisi voinut kytkeä päälle myös raspi-configista. 
