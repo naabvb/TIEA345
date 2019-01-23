@@ -1,0 +1,3 @@
+Ensin loin JSON ohjeiden mukaisesti, sitten siirsin raspille WINSCP-ohjelmalla.
+
+"client_email": "rpi3jyu@tiea345-lailpimi.iam.gserviceaccount.com",

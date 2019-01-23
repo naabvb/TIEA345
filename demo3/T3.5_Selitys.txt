@@ -1,0 +1,7 @@
+Asetin crontabin ajamaan ohjelmaa T3.5_kamera_tasatunnein.py aina tunnin välein.
+
+Tämä onnistuu lisäämällä crontabiin rivi:
+
+0 * * * * /usr/bin/python /home/pi/T3.5_kamera_tasatunnein.py
+
+Testasin ottamalla kuvan joka minuutti eli (* * * * *). Tämä säilyy myös uudelleenkäynnistyksen yli.

@@ -1,0 +1,3 @@
+Asensin apachen (apt-get install apache2) ja loin linkin webpalvelimelle kansioon /home/pi/Kuvat
+ 
+Sitten käytin T3.5_Selityksessä mainittua ohjelmaa ja crontab asetuksia uudelleen. Nyt uusin kuva tulee aina tunnin välein osoitteeseen http://192.168.0.180/Kuvat/tasatuntikuva.jpg

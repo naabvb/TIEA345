@@ -1,0 +1,9 @@
+Linkki kuvaan: http://users.jyu.fi/~lailpimi/TIEA345/kuva.jpg
+
+Linkki videoon: https://youtu.be/sScc2PiW6IA # Youtube jostain syystä päättää 14 sekuntiin, mutta alkuperäinen on 15 sec
+
+Otin videon komennolla raspivid parametreillä -o videonnimi.h264 -t 15000 -w 640 -h 480 -fps 25
+-t videon kesto millisekunteina
+-w videon leveys
+-h korkeus
+-fps videon frames per second. Tarvitaan että tulee varmasti 15 sec
