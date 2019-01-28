@@ -1,0 +1,5 @@
+Tein uudet kansiot motionkuvat ja motionlog, sekä muutin nämä motion.conf tiedostoon:
+
+logfile /var/log/motion/motion.log -> logfile /home/pi/motionlog/motion.log
+
+target_dir /var/lib/motion -> target_dir /home/pi/motionkuvat

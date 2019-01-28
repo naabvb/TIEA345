@@ -1,0 +1,6 @@
+
+post_capture 0 -> post_capture 20 # Varmasti saadaan vähintään 10sec 2 fps. En keksinyt muutakaan tapaa.
+
+max_movie_time 0 -> max_movie_time 10 # Yksi tiedosto max 10 sec. Motion tuotti oletuksena .avi muotoista videota kuvista.
+
+output_pictures on -> output_pictures off # Jos haluaa tallentaa pelkkää videota

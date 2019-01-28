@@ -1,0 +1,3 @@
+OpenCV asennettu
+
+Ekaan osioon meni 1h36min ja asentamiseen 2h27min.

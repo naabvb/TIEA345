@@ -1,0 +1,3 @@
+pre_capture 0 -> pre_capture 2 # Kaksi kuvaa ennen
+
+post_capture 0 -> post_capture 10 # Jatkaa 5 sekuntia. Arvo on 10 koska motion ottaa 2 fps

@@ -1,0 +1,13 @@
+; area_detect value -> area_detect 5 # Alue jostain havaitessa ajetaan komento. Tämä ei kuitenkaan estä motionia havaitsemasta liikettä muilla alueilla
+
+; on_area_detected value -> ./T4.4_skripti.sh # Skripti (erillisessä tiedostossa) joka ajetaan kun liikettä havaitaan alueella
+
+output_pictures on -> output_pictures off # Ei enää tallenneta kuvia motionilla
+
+ffmpeg_output_movies on -> ffmpeg_output_movies off # Ei myöskään videoita
+
+
+# Tämä ei varmasti ole paras ratkaisu, mutta toimii silti. Jos ei halunnut tehdä PGM maskia, niin mielestäni ainut tapa ottaa kuvia
+kun liikettä havaitaan keskellä on ottaa ne jollakin muulla kun motionilla. Tämä ei kuitenkaan ole niin helppoa
+koska raspicam ajuri ei toimi jos motion on samaan aikaan päällä. Skripti siis sammuttaa motionin, ottaa kuvan ja sitten
+käynnistää motionin uudestaan.
